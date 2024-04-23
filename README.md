@@ -45,11 +45,10 @@ extract_text_from_html(html_content, url): Extracts plain text from HTML content
 The crawling and parsing operations are modular, allowing independent operation as well as integration.
 Data is stored locally, and search operations are performed in-memory.
 
-# Operation
-Commands
+# Steps to run
 To start the crawler: scrapy runspider crawler.py
-To start the web server: python html_parser.py
-CLI search mode: python html_parser.py --cli --query "example query"
+To start the web server: python3 html_parser.py
+CLI search mode: python3 html_parser.py --cli --query "example query"
 
 # Dependencies
 Scrapy, Flask, BeautifulSoup, Scikit-Learn, NumPy, Pickle.
